@@ -103,7 +103,23 @@ $$行内数学公式
  参考国际通用emoji名称
 https://emojipedia.org/
 在表情详细页中Technical Information里的Shortcodes会显示表情代码支持
+```
+### 思维导图
+```
+在vscode中安装markmap扩展后打开md文件进行编辑,右键打开命令行输入 Open as markmp渲染思维导图
+---
+markmap:
+  color:
+    - blue
+---
+# 一级
+## 二级
+### 三级
 
+## 二级
+### 三级
+#### 四级
+更多:  https://markmap.js.org/docs/markmap
 ```
 html代码嵌入视频
 
