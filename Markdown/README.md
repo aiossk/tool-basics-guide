@@ -122,8 +122,27 @@ markmap:
 ### 三级
 #### 四级
 更多:  https://markmap.js.org/docs/markmap
+or
+在html使用markmap
+嵌入
+<style>
+      svg.markmap {
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+    //<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18.11/dist/index.js"></script>
+   // <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18"></script>  (2选1)
+<div class="markmap">
+<script type="text/template">
+---
+ markmap:
+ maxWidth: 300
+ colorFreezeLevel: 2
+---
+ # markmap
+ ## Links
+</script>
+
+DEMO: https://stackblitz.com/edit/markmap-autoloader?file=index.html
 ```
-html代码嵌入视频
-
-
-  
